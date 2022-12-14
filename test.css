@@ -1,0 +1,86 @@
+@keyframes logo {
+    form {
+        color: rgb(49, 28, 240);
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+.nav1 {
+    background-color: rgb(85, 34, 34);
+    height: auto;
+    width: auto;
+}
+
+.b-logo {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-left: 4px;
+}
+
+.nav-sbox {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+}
+
+.input1 {
+    border-radius: 0 0 0 7px;
+    height: 40px;
+    display:inline-flex;
+    border: 2px solid coral;
+position: relative;
+    box-sizing: border-box;
+    width: 30vw;
+    margin-left: 150px;
+    
+    
+
+}
+
+i {
+    color: coral;
+    margin: 5px;
+    display: flex;
+}
+
+.div3 {
+    display: flex;
+    margin-left: 20vw;
+}
+
+.btn1 {
+    width: 80px;
+    height: 40px;
+    border: 2px solid coral;
+    position: relative;
+    border-radius: 0 7px 0 0;
+    background-color: coral;
+
+}
+
+.btn2 {
+    width: 80px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    font-weight: bold;
+    
+    
+}
+
+.div4 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
